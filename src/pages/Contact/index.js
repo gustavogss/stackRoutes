@@ -1,10 +1,24 @@
-import { View, Text } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 import React from 'react';
 
 export function Contact() {
   return (
-    <View>
-      <Text>Contato</Text>
+    <View style={styles.container}>
+      <Text style={styles.title}>Contato</Text>
     </View>
   )
 }
+const styles = StyleSheet.create({
+    container:{   
+        flex: 1,    
+        backgroundColor: '#080892',
+        color: '#ffffff',
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    title: {
+        color: "#ffffff",
+        fontSize: 30,
+        fontWeight: "500",
+      },
+});

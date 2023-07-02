@@ -1,10 +1,17 @@
-import { View, Text } from 'react-native';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import React from 'react';
+import { Contact } from '../pages/Contact';
+
+const Stack = createNativeStackNavigator();
 
 export function StackRoutes() {
   return (
-    <View>
-      <Text>StackRoutes</Text>
-    </View>
+    <Stack.Navigator 
+    screenOptions={{
+      headerShown: false
+    }}
+    >
+    <Stack.Screen name='contatoStack' component={Contact}/>
+    </Stack.Navigator>
   )
 }
