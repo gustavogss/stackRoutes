@@ -5,16 +5,16 @@
 - [Tab Navigator](https://reactnavigation.org/docs/bottom-tab-navigator)
 - [Drawer Navigator](https://reactnavigation.org/docs/drawer-navigator)
 
-# Estrutura
+## Estrutura
 
 ```
     |-drawerRoutes
         |-tabRoutes
-        
+
     |-stackRoutes
 ```
 
-# Tecnologías utilizadas :robot:
+## Tecnologías utilizadas :robot:
 
 - React Native
 - Expo
